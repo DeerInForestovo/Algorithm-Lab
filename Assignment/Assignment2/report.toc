@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Problem Definition}{3}{section.1}%
+\contentsline {section}{\numberline {2}Algorithm}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Important lemma}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Algorithm - Contract part}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Algorithm - Expand part}{6}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Expand a vertex}{6}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Expand a ring}{6}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Time Complexity Analysis}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Data Structures}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Lefist Heaps}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Disjoint Set Unions}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}C++ Code}{10}{section.4}%
+\contentsline {section}{\numberline {5}Extensions}{13}{section.5}%
