@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Converting signals}{3}{section.1}%
+\contentsline {section}{\numberline {2}Arbitrary-precision multiplication}{4}{section.2}%
+\contentsline {section}{\numberline {3}More applications}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Audio editing}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Image compression}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Computer vision}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusion}{5}{section.4}%
