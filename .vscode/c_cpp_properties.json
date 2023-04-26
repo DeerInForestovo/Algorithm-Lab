@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\Dev-Cpp\\MinGW64\\x86_64-w64-mingw32\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "",
+            "compilerArgs": [
+                "-std=c++11",
+                "-O2",
+                "-Wl,--stack=100000000"
+            ]
+        }
+    ],
+    "version": 4
+}
