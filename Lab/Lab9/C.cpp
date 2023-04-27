@@ -28,7 +28,6 @@ int main() {
         }
         Checkmax(lp, j);
         Num[lp].push_back(i);
-        // printf("i = %d, lp = %d\n", i, lp);
     }
     Dp[0][0][0] = 1;
     For(i, 2, 500) if(Num[i].size()) {
