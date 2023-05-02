@@ -109,9 +109,27 @@ Add/Remove a vertex to/from the tree can be easily done in $O(1)$ time with link
 
 \section{How it speeds up SPFA}
 
-If there is a negative ring, the algorithm will terminate in advance, so it is speeded up without a doubt. However, if there is no negative rings, this trick can still speed SPFA up.
+If there is a negative ring, the algorithm will terminate in advance, so it is speeded up without a doubt.
 
+Even if there is no negative rings, this trick can still speed SPFA up. The picture below shows a classic example: 
 
+In this example, the terminus vertex is on the leftmost, and the orange numbers are weights. If we update all vertices from left to right, we will always first update the vertex on the lower left corner of a triangle, and then the vertex on the upper angle, which will update the vertex on the lower left corner in the next iteration. In short, the vertices on the lower layer have been always misleading in the whole procedure. Actually, in the $a$th round for $a<\frac{n}{2}$, there are $2a-1$ vertices being updated in the last iteration. However, if we use Tarjan's trick, there will always be $O(1)$ vertices need to be operated in each iteration. Thouth the misleading still exists, it will not bring extra cost to us because we can always immediately detect it and set the misled vertices dormant.
+
+\begin{figure}[h]  % 'h' means insert here
+    \centering
+    \includegraphics[height=2cm,width=8cm]{figure/1.png}
+    \caption{An example forcing SPFA to run for $\Omega(nm)$ time.}
+    \label{1}
+\end{figure}
+
+We can think in another way. Recall that SPFA calculates the minimum distance from $v$ to $t$ with no more than $i$ edges for all vertices $v$ in the $i$th iteration. In this example, the $i$th lower layer vertex from right has $i$ different minimum distances, each of them use different numbers of edges, so its value will be changed for $i$ times during the procedure. The picture below shows an example for $i=3$. But if we use Tarjan's trick, we will keep focusing on minimizing the final answer and ignore those useless local answer.
+
+\begin{figure}[h]  % 'h' means insert here
+    \centering
+    \includegraphics[height=2cm,width=8cm]{figure/2.png}
+    \caption{An explanation for why SPFA runs slowly on this example.}
+    \label{2}
+\end{figure}
 
 \newpage  % reference page
 
