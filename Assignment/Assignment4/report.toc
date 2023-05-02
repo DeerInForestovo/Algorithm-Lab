@@ -1,4 +1,4 @@
 \contentsline {section}{\numberline {1}Core idea and critical procedures of Tarjan's trick}{3}{section.1}%
-\contentsline {section}{\numberline {2}Running time and space complexity analysis}{4}{section.2}%
-\contentsline {section}{\numberline {3}Pseudocode}{5}{section.3}%
-\contentsline {section}{\numberline {4}How it speeds up SPFA}{5}{section.4}%
+\contentsline {section}{\numberline {2}Running time and space complexity analysis}{3}{section.2}%
+\contentsline {section}{\numberline {3}Pseudocode}{4}{section.3}%
+\contentsline {section}{\numberline {4}How it speeds up SPFA}{4}{section.4}%
