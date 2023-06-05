@@ -9,6 +9,9 @@ SUSTech 2023 Spring CS216 Algorithm Design and Analysis(H)
 
 **一定不要**将其中的任何内容作为你自己的作业来提交，否则自负查重风险
 
-Lab 完成情况：目前全满分（即 A 题全通过，B 题在两次提交以内通过）
+完成情况：
 
-Assignment 完成情况：目前全满分
+![lab](labscore.png)
+
+![assignment](assignmentscore.png)
+
