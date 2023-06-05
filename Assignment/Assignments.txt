@@ -1,0 +1,81 @@
+Assignment 1
+
+In this assignment, you are required to apply the learned knowledge to analyze the extended Gale-Shapley algorithm used in Lab01B (see Lab01B-sol.pdf in the Resources for the algorithm outline). In particular, try to answer the following questions:
+
+1. What is the time complexity?
+
+2. How do we define stability for the college/student setting? Note that this setting allows one-to-many matching (e.g., one college can accept many students) and incomplete preference list (e.g., some colleges may be unacceptable by a student). Hint: Please refer to page 30 of Lecture01.
+
+3. Prove that the extended GS algorithm indeed outputs a stable matching.
+
+4. Does the student-proposing GS algorithm produce a student-optimal matching?
+
+Please submit your analysis here as a single PDF file.
+
+Assignment 2
+
+In this assignment, you need to understand and then describe a complicated algorithm. The goal of this assignment is to practice your writing/presentation skills. (This is crucial for your future success!)
+
+We learned in class that Chu-Liu's algorithm finds a min-cost arborescence in O(mn) time, but this is not very efficient. The attached lecture notes describe a more efficient algorithm/implementation that runs in O(m log n) time, which is much faster!
+
+Please read section 5 of the attached file and do the following:
+
+1. Before writing, think how the lecture notes present the algorithm, e.g., why 5.1 is needed before 5.2 and 5.3.
+
+2. Describe the algorithm implementation in your own words. Please do not copy-paste those from the lecture notes, because then you will learn nothing. Here the goal is to beat the lecture notes and explain the algorithm in a more clear way.
+
+3. Please fill out the missing details about the underlying data structures, e.g., how to meld heaps?
+
+4. Write your pseudocode or real program for the O(m log n) algorithm and then analyze its time complexity. Please be precise, e.g., specify the time complexity for each crucial step in your code.
+
+Note: The algorithm may involve several data structures and you can omit the description of those you already learned from your data structure course, e.g., union find set, binary heap, etc. However, more advanced data structures like leftist heaps have to be explained in sufficient details, i.e., imagine the readers only know the basic data structures and your goal is to let them understand.
+
+PS: Please feel free to describe an even faster algorithm instead, e.g., the O(m + n log n) algorithm proposed by Gabow, Galil, Spencer, and Tarjan in 1986. If you choose to do so, you don't need to describe the attached O(m log n) algorithm anymore, but please follow the same requirements as shown above.
+
+Please write in English and submit your writing as a single PDF file. Your writing will be graded based on quality, e.g., correctness, completeness, clarity, conciseness, etc.
+
+Note: There could be mistakes in the attached lecture notes, which could also appear in other online resources you may access when completing a task. You can treat this as part of your challenge.
+
+Attached file: 04-DMST.pdf
+
+Assignment 3
+
+We learned in class that fast Fourier transform (FFT) is designed to efficiently compute the discrete Fourier transform (and its inverse) of a sequence. FFT is a very popular algorithm with a lot of applications.
+
+In this assignment, you are asked to write a report to describe your favorite FFT applications. The goal of this assignment is to learn practical algorithms by yourself, systemize the learned knowledge, and explain it in a clear way.
+
+Your report will be graded based on quality, e.g., clarity, scope, succinctness, technicality, etc. We will also consider the importance of your selected FFT applications. Typically, we expect your report to have at least 5 applications and 2~3 of them should be described in sufficient technical details. Note that you could also introduce some variants of the FFT algorithm and discuss their applications. Please write your report in English.
+
+Hope you enjoy this assignment!
+
+Assignment 4
+
+In class we learned Bellman-Ford-Moore algorithm and its efficient implementation: the push-based implementation with O(n) extra space (also known as SPFA). We also learned how one can extend SPFA to detect negative cycles. However, in practice this implementation is still not fast enough.
+
+In this assignment, you are asked to understand and describe an efficient algorithm/implementation to find shortest paths and detect negative cycles. This algorithm combines Bellman-Ford-Moore with a so-called subtree disassembly trick proposed by Tarjan. Please read pages 304-307 in your textbook and do the following.
+
+1. Write the pseudocode of this algorithm and explain its core idea and critical procedures in a clear way.
+
+2. Analyze its running time and space complexity.
+
+3. Explain in your words why in practice Tarjan's trick gains a considerable speedup compared to SPFA, even for graphs with no negative cycles. Note that the worst-case running time of this improved algorithm is nonetheless unchanged, i.e., O(mn).
+
+This should not be a complicated assignment. Please try to make sure your answers are clear and to the pint. Please write your answers in English and submit a single PDF file.
+
+Assignment 5
+
+In class we showed how to do polynomial-time reductions between problems, with simple examples. Actually, in your textbook, there are several more involved reduction examples.
+
+In this assignment, you are required to pick your favorite reduction from the following examples and write the proof in details. The proofs are explained in your textbook, but you must write the proof in your own words. Of course, you are encouraged to prove all of them (but one is enough for this assignment). The goal of this assignment is to understand how reduction works. Please describe the problem that you pick in sufficient details.
+
+1. 3-SAT ≤ p Directed-Hamiltonian-Cycle
+
+2. 3-SAT ≤ p 3D-Matching
+
+3. 3-SAT ≤ p 3-Color
+
+4. 3-SAT ≤ p Subset-Sum
+
+Note: It is not hard to show that all of the above problems are in NP. Later you will learn that 3-SAT is in NP-complete and hence those problems are actually in NP-complete.
+
+Please write in English and submit a single PDF file.
