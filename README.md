@@ -15,3 +15,4 @@ SUSTech 2023 Spring CS216 Algorithm Design and Analysis(H)
 
 ![assignment](assignmentscore.png)
 
+期末考试 96 ，总评 98
